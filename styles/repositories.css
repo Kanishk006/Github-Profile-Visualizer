@@ -1,0 +1,114 @@
+/* General Styles */
+.repositories-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* Repo Card */
+.repo-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Repo Title */
+.repo-title {
+  color: #60a5fa;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Repo Description */
+.repo-description {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Language Tags */
+.repo-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.language {
+  background-color: #334155;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  color: #e2e8f0;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Repo Stats */
+.repo-stats {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.repo-stats span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .repositories-container {
+      padding: 15px;
+  }
+
+  .repo-card {
+      padding: 15px;
+  }
+
+  .repo-title {
+      font-size: 18px;
+  }
+
+  .repo-description {
+      font-size: 13px;
+  }
+
+  .repo-languages {
+      gap: 5px;
+  }
+
+  .language {
+      padding: 4px 10px;
+      font-size: 11px;
+  }
+
+  .repo-stats {
+      font-size: 12px;
+      gap: 10px;
+  }
+}

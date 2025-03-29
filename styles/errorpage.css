@@ -1,0 +1,38 @@
+/* Error Page Container */
+.error-container {
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Title */
+  .error-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Error Image */
+  .error-image {
+    width: 280px; /* Adjust based on actual image size */
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  /* Error Message */
+  
+  .error-message1 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  .image {
+    max-width: 100%;
+    width: 400px;
+    margin-top: 20px;
+}
